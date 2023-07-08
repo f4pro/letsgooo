@@ -528,12 +528,12 @@ nav.sticky .menu-item .sub-menu{
   color: #111 ;
 }
 
-.part3{
+.part3-about{
   position: relative;
   justify-content: left;
   background: url(/images/photos/pic5.JPG);
   background-position: center;
-  object-fit: cover;
+  background-size: cover;
 }
 
 .overlay-p3{
@@ -541,7 +541,7 @@ nav.sticky .menu-item .sub-menu{
 }
 
 .content-part3{
-  padding: 200px 400px;
+  padding: 100px 200px;
 }
 
 
@@ -555,6 +555,50 @@ nav.sticky .menu-item .sub-menu{
   color: #fff;
 }
 
+.part4{
+  background: #fff;
+  position: relative;
+}
+
+.struktur-org{
+  padding: 100px 200px;
+}
+
+.struktur-org h2{
+  color: #111;
+  font-size: 3em;
+  font-weight: 600;
+  padding: 0 200px;
+  justify-items: center;
+}
+
+.bp3m-squad{
+  padding: 100px 200px;
+}
+
+.bp3m-squad h2{
+  color: #111;
+  font-size: 3em;
+  font-weight: 600;
+  align-items: center;
+}
+
+.part5{
+  background: #cfcfcf;
+  position: relative;
+  padding: 100px 200px;
+}
+
+.part5 h2{
+  color: #111;
+  font-size: 3em;
+  font-weight: 600;
+  justify-items: center;
+}
+
+.faq{
+
+}
 
 
 /* Footer */
