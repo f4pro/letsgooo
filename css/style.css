@@ -69,7 +69,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(180deg, #0b2d4d 0%, rgba(255, 255, 255, 0) 100%);
-  padding: 10px 155px;
+  padding: 10px 200px;
   transition: 0.6s;
 }
 
@@ -488,8 +488,8 @@ nav.sticky .menu-item .sub-menu{
   letter-spacing: 1px;
 } */
 
-/*======= About Page =======*/
-.header-about{
+/*======= About us Page =======*/
+.header-aboutus{
   height: 40vh;
   position: relative;
   background: url(/images/photos/About.JPG);
@@ -498,15 +498,12 @@ nav.sticky .menu-item .sub-menu{
   background-size: cover;
 }
 
-.overlay-h-about{
+.overlay-h-aboutus{
   background-color: #0b2d4d7a;
 }
 
-.content-head{
-  padding: 185px 200px;
-}
-
-.content-head h1{
+.aboutus-content-head h1{
+  padding: 185px 240px;
   font-size: 60px;
   color: #fff;
 }
@@ -528,7 +525,7 @@ nav.sticky .menu-item .sub-menu{
   color: #111 ;
 }
 
-.part3-about{
+.part3-aboutus{
   position: relative;
   justify-content: left;
   background: url(/images/photos/pic5.JPG);
@@ -536,26 +533,26 @@ nav.sticky .menu-item .sub-menu{
   background-size: cover;
 }
 
-.overlay-p3{
+.overlay-p3-aboutus{
   background-color: #0b2d4d7a;
 }
 
-.content-part3{
+.content-part3-aboutus{
   padding: 100px 200px;
 }
 
 
-.content-part3 h2{
+.content-part3-aboutus h2{
   font-size: 3em;
   font-weight: 600;
   color: #fff;
 }
 
-.content-part3 p{
+.content-part3-aboutus p{
   color: #fff;
 }
 
-.part4{
+.part4-aboutus{
   background: #fff;
   position: relative;
 }
@@ -583,7 +580,7 @@ nav.sticky .menu-item .sub-menu{
   align-items: center;
 }
 
-.part5{
+.part5-aboutus{
   background: #cfcfcf;
   position: relative;
   padding: 100px 200px;
@@ -596,8 +593,74 @@ nav.sticky .menu-item .sub-menu{
   justify-items: center;
 }
 
-.faq{
+/* .faq{
 
+} */
+
+/* ====== SPMI Page ===== */
+
+.header-spmi{
+  height: 40vh;
+  position: static;
+  background: url(/images/photos/pic3.JPG);
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay-h-spmi{
+  background-color: #0b2d4d7a;
+  height: 40vh;
+
+}
+
+.spmi-content-head h1{
+  padding: 160px 235px;
+  font-size: 60px;
+  color: #fff;
+  line-height: 80px;
+}
+
+.spmi-more{
+  position: static;
+  background: #fff;
+  padding: 70px 200px;
+}
+
+.spmi-more h2 {
+  font-size: 2em;
+  font-weight: 600;
+  color: #111;
+}
+
+.spmi-more p {
+  margin: 25px 0;
+  color: #111 ;
+}
+
+.button-spmi {
+  /* display: inline-block; */
+  position: relative;
+  height: 20vh;
+  width: 100%;
+  font-size: 16px;
+  padding: 80px 200px;
+  text-align: left;
+  text-decoration: none;
+  background: linear-gradient(29deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+  color: white;
+  transition: 0.6s;
+  border: none;
+  cursor: pointer;
+}
+
+
+.button-spmi:hover {
+  background: linear-gradient(29deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 71%);
+}
+
+.button-spmi:active {
+  background-color: #3e8e41;
 }
 
 
