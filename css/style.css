@@ -69,7 +69,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(180deg, #0b2d4d 0%, rgba(255, 255, 255, 0) 100%);
-  padding: 10px 200px;
+  padding: 10px 155px;
   transition: 0.6s;
 }
 
@@ -488,8 +488,8 @@ nav.sticky .menu-item .sub-menu{
   letter-spacing: 1px;
 } */
 
-/*======= About us Page =======*/
-.header-aboutus{
+/*======= About Page =======*/
+.header-about{
   height: 40vh;
   position: relative;
   background: url(/images/photos/About.JPG);
@@ -498,12 +498,15 @@ nav.sticky .menu-item .sub-menu{
   background-size: cover;
 }
 
-.overlay-h-aboutus{
+.overlay-h-about{
   background-color: #0b2d4d7a;
 }
 
-.aboutus-content-head h1{
-  padding: 185px 240px;
+.content-head{
+  padding: 185px 200px;
+}
+
+.content-head h1{
   font-size: 60px;
   color: #fff;
 }
@@ -525,7 +528,7 @@ nav.sticky .menu-item .sub-menu{
   color: #111 ;
 }
 
-.part3-aboutus{
+.part3-about{
   position: relative;
   justify-content: left;
   background: url(/images/photos/pic5.JPG);
@@ -533,26 +536,26 @@ nav.sticky .menu-item .sub-menu{
   background-size: cover;
 }
 
-.overlay-p3-aboutus{
+.overlay-p3{
   background-color: #0b2d4d7a;
 }
 
-.content-part3-aboutus{
+.content-part3{
   padding: 100px 200px;
 }
 
 
-.content-part3-aboutus h2{
+.content-part3 h2{
   font-size: 3em;
   font-weight: 600;
   color: #fff;
 }
 
-.content-part3-aboutus p{
+.content-part3 p{
   color: #fff;
 }
 
-.part4-aboutus{
+.part4{
   background: #fff;
   position: relative;
 }
@@ -580,7 +583,7 @@ nav.sticky .menu-item .sub-menu{
   align-items: center;
 }
 
-.part5-aboutus{
+.part5{
   background: #cfcfcf;
   position: relative;
   padding: 100px 200px;
@@ -593,8 +596,9 @@ nav.sticky .menu-item .sub-menu{
   justify-items: center;
 }
 
-/* .faq{
+.faq{
 
+<<<<<<< HEAD
 } */
 
 /* ====== SPMI Page ===== */
@@ -661,6 +665,8 @@ nav.sticky .menu-item .sub-menu{
 
 .button-spmi:active {
   background-color: #3e8e41;
+=======
+>>>>>>> parent of 06ad99f (go)
 }
 
 .dokumen-utama{
