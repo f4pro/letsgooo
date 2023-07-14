@@ -601,7 +601,7 @@ nav.sticky .menu-item .sub-menu{
 
 .header-spmi{
   height: 40vh;
-  position: static;
+  position: sticky;
   background: url(/images/photos/pic3.JPG);
   object-fit: cover;
   background-position: center;
@@ -616,7 +616,7 @@ nav.sticky .menu-item .sub-menu{
 
 .spmi-content-head h1{
   padding: 160px 235px;
-  font-size: 60px;
+  font-size: 40px;
   color: #fff;
   line-height: 80px;
 }
@@ -661,6 +661,16 @@ nav.sticky .menu-item .sub-menu{
 
 .button-spmi:active {
   background-color: #3e8e41;
+}
+
+.dokumen-utama{
+  position: relative;
+  padding: 70px 200px;
+}
+
+.dokumen-utama h2{
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 

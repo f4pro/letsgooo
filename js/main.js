@@ -21,21 +21,31 @@ var swiper2 = new Swiper(".bg-slider", {
 });
 
 //Navigation bar effects on scroll
-window.addEventListener("scroll", function () {
-    const header = document.querySelector("nav");
-    header.classList.toggle("sticky", window.scrollY > 0);
-});
+// window.addEventListener("scroll", function () {
+//     const header = document.querySelector("nav");
+//     header.classList.toggle("sticky", window.scrollY > 0);
+// });
 
-var menu = document.querySelector('.menu');
-var menuBtn = document.querySelector('.menu-btn');
-var closeBtn = document.querySelector('.close-btn');
+// var menu = document.querySelector('.menu');
+// var menuBtn = document.querySelector('.menu-btn');
+// var closeBtn = document.querySelector('.close-btn');
 
-menuBtn.addEventListener("click", () => {
-    menu.classList.add('active');
-});
+// menuBtn.addEventListener("click", () => {
+//     menu.classList.add('active');
+// });
 
-closeBtn.addEventListener("click", () => {
-    menu.classList.remove('active');
+// closeBtn.addEventListener("click", () => {
+//     menu.classList.remove('active');
+// });
+
+// Navbar bootsrap
+var nav = document.querySelector('nav');
+window.addEventListener('scroll', function () {
+    if(this.window.pageYOffset > 100){
+        nav.classList.add('bg-dark', 'shadow');
+    }else{
+        nav.classList.remove('bg-dark');
+    }
 });
 
 // jquery for toggle dropdown menus
