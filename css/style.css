@@ -677,58 +677,61 @@ nav.sticky .menu-item .sub-menu{
 }
 
 /* FOCUS HERE */
+ 
+/* bakalan css carousel */
 
-.carousel-post{
-  margin-top: 130px;
-}
-
-.carousel-post .post{
-  width: 300px;
-  background: #fff;
-  box-shadow: 0 3px 5px rgba(0,0,0,.3);
-  margin: 0 auto;
-  padding-bottom: 20px;
-}
-
-.carousel-post .post-carousel .image-carousel img{
-  height: 250px;
-  width: 100%;
-  object-fit: cover;
-}
-
-.carousel-post .post-carousel .content-carousel{
-  padding: 0 20px;
-}
-
-.carousel-post .post-carousel .content-carousel .date-carousel{
-  margin: 10px 0;
-  font-size: 15px;
-  color: #666;
-}
-
-.post-carousel .post-carousel .content-carousel .title-carousel{
-  font-weight: 600;
-  font-size: 22px;
-  color: #333;
-  text-transform: capitalize;
-}
-
-.carousel-post .post-carousel:hover .title-carousel{
-  text-decoration: underline;
-}
-
-.carousel-post .post-carousel .content-carousel p{
-  font-size: 14px;
-  padding: 5px 0;
-  color: #666;
-}
-
-.carousel-post .post-carousel .content-carousel .link-carousel{
-  display: block;
-  color: tomato;
-  margin-top: 10px;
-}
 /* FOCUS END */
+
+.postingan-terkait{
+  position: relative;
+  padding: 70px 200px;
+}
+
+.postingan-terkait h2{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/* Akreditasi */
+
+.header-akreditasi{
+  height: 40vh;
+  position: sticky;
+  background: url(/images/photos/pic3.JPG);
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay-h-akreditasi{
+  background-color: #0b2d4d7a;
+  height: 40vh;
+
+}
+
+.ak-content-head h1{
+  padding: 160px 235px;
+  font-size: 40px;
+  color: #fff;
+  line-height: 80px;
+}
+
+.ak-more{
+  position: static;
+  background: #fff;
+  padding: 70px 200px;
+}
+
+.ak-more h2 {
+  font-size: 2em;
+  font-weight: 600;
+  color: #111;
+}
+
+.ak-more p {
+  margin: 25px 0;
+  color: #111 ;
+}
 
 /* Footer */
 
