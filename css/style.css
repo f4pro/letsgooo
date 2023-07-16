@@ -69,13 +69,13 @@ nav{
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(180deg, #0b2d4d 0%, rgba(255, 255, 255, 0) 100%);
-  padding: 10px 155px;
+  padding: 10px 130px;
   transition: 0.6s;
 }
 
 .logo img{
   height: auto;
-  width: 70%;
+  width: 60%;
 }
 
 nav.sticky{
@@ -103,10 +103,10 @@ nav .navigation .menu{
 
 .menu-item > a{
   color: #fff;
-  font-size: 1em;
+  font-size: 15px;
   text-decoration: none;
   margin: 20px;
-  padding: 25px 0;
+  padding: 20px 0;
 }
 
 .menu-item > a:hover{
@@ -568,8 +568,7 @@ nav.sticky .menu-item .sub-menu{
   color: #111;
   font-size: 3em;
   font-weight: 600;
-  padding: 0 200px;
-  justify-items: center;
+  text-align: center;
 }
 
 .bp3m-squad{
@@ -580,7 +579,7 @@ nav.sticky .menu-item .sub-menu{
   color: #111;
   font-size: 3em;
   font-weight: 600;
-  align-items: center;
+  text-align: center;
 }
 
 .part5{
