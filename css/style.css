@@ -693,45 +693,84 @@ nav.sticky .menu-item .sub-menu{
 
 /* Akreditasi */
 
-.header-akreditasi{
+.header-ak{
   height: 40vh;
   position: sticky;
-  background: url(/images/photos/pic3.JPG);
+  background: url(/images/photos/akreditasi.jpg);
   object-fit: cover;
-  background-position: center;
+  /* background-position: center; */
+  background-position-y: 10%;
   background-size: cover;
 }
 
-.overlay-h-akreditasi{
+.overlay-h-ak{
   background-color: #0b2d4d7a;
   height: 40vh;
 
 }
 
 .ak-content-head h1{
-  padding: 160px 235px;
-  font-size: 40px;
+  padding: 200px 235px;
+  font-size: 60px;
   color: #fff;
   line-height: 80px;
 }
 
-.ak-more{
-  position: static;
+.ak-tab1{
+  position: relative;
   background: #fff;
-  padding: 70px 200px;
 }
 
-.ak-more h2 {
-  font-size: 2em;
-  font-weight: 600;
-  color: #111;
+.header-tab{
+  position: relative;
+  margin: 70px 200px 0;
+  padding: 40px 40px;
+  background-color: #ffb1b1;
+  font-size: 20px;
+  border-radius: 9px 9px 0 0;
 }
 
-.ak-more p {
+.line1{
+  height: 5px;
+  background: #111;
+}
+
+.tab-ak{
+  background: #dedede;
+  margin: 0 200px 70px;
+  padding: 40px 40px;
+  border-radius: 0 0 9px 9px;
+}
+
+.content-table{
+  border-collapse: collapse;
   margin: 25px 0;
-  color: #111 ;
+  font-size: 1em;
+  width: 100%;
+  background-color: #fff;
 }
 
+.content-table thead tr{
+  background-color: #4080EF;
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td{
+  padding: 12px 40px;
+}
+
+.content-table tbody tr{
+  border-bottom: 1px solid #dedede;
+}
+.content-table tbody tr:nth-last-of-type(even){
+  background-color: #f3f3f3;
+}
+/* .content-table tbody tr:last-of-type{
+  border-bottom: 2px solid #3e8e41;
+} */
 /* Footer */
 
 footer{
@@ -873,6 +912,44 @@ footer p{
 }
 
 /* Responsive */
+
+@media screen and (max-width: 1090px) {
+  .content-table{
+    border: 0;
+    border-radius: 8px;
+  }
+  .content-table thead{
+    display: none;
+  }
+  .content-table tr{
+    padding: 10px 0;
+    display: block;
+    /* border-bottom: 2px solid #ddd; */
+  }
+  .content-table td{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 15ch auto;
+    text-align: left;
+    font-size: 13px;
+  }
+  .content-table td::before{
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .content-table td:nth-of-type(1)::before{
+    content: "Head 1";
+  }
+  .content-table td:nth-of-type(2)::before{
+    content: "Head 2";
+  }
+  .content-table td:nth-of-type(3)::before{
+    content: "Head 3";
+  }
+  .content-table td:nth-of-type(4)::before{
+    content: "Head 4";
+  }
+}
 
 @media (max-width: 1500px) {
   nav .navigation .menu{
