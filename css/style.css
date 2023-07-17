@@ -698,8 +698,10 @@ nav.sticky .menu-item .sub-menu{
 .header-ak{
   height: 45vh;
   position: relative;
-  background: url(/images/photos/akreditasi.jpg);
-  background-position-y: 140%;
+  background: url(/images/photos/pic21.jpg);
+  /* background-position-x: 100%; */
+  background-position-y: 65%;
+  /* background-position: center; */
   background-size: cover;
   background-attachment: fixed;
   display: flex;
