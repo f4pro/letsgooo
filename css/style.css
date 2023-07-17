@@ -490,20 +490,22 @@ nav.sticky .menu-item .sub-menu{
 
 /*======= About Page =======*/
 .header-about{
-  height: 40vh;
+  height: 45vh;
   position: relative;
   background: url(/images/photos/About.JPG);
-  object-fit: cover;
-  background-position: center;
+  background-position-y: 130%;
   background-size: cover;
+  background-attachment: fixed;
+  display: flex;
 }
 
 .overlay-h-about{
   background-color: #0b2d4d7a;
+  width: 100%;
 }
 
 .content-head{
-  padding: 185px 200px;
+  padding: 185px 235px;
 }
 
 .content-head h1{
@@ -531,8 +533,8 @@ nav.sticky .menu-item .sub-menu{
 .part3-about{
   position: relative;
   justify-content: left;
-  background: url(/images/photos/pic5.JPG);
-  background-position: center;
+  background: url(/images/photos/pic5w.JPG);
+  background-position-y: 59%;
   background-size: cover;
 }
 
@@ -544,15 +546,15 @@ nav.sticky .menu-item .sub-menu{
   padding: 100px 200px;
 }
 
-
 .content-part3 h2{
   font-size: 3em;
-  font-weight: 600;
+  font-weight: 700;
   color: #fff;
 }
 
 .content-part3 p{
   color: #fff;
+  font-weight: 500;
 }
 
 .part4{
@@ -602,23 +604,23 @@ nav.sticky .menu-item .sub-menu{
 /* ====== SPMI Page ===== */
 
 .header-spmi{
-  height: 40vh;
-  position: sticky;
+  height: 45vh;
+  position: relative;
   background: url(/images/photos/pic3.JPG);
-  object-fit: cover;
-  background-position: center;
+  background-position-y: 130%;
   background-size: cover;
+  background-attachment: fixed;
+  display: flex;
 }
 
 .overlay-h-spmi{
   background-color: #0b2d4d7a;
-  height: 40vh;
-
+  width: 100%;
 }
 
 .spmi-content-head h1{
   padding: 160px 235px;
-  font-size: 40px;
+  font-size: 55px;
   color: #fff;
   line-height: 80px;
 }
@@ -694,19 +696,18 @@ nav.sticky .menu-item .sub-menu{
 /* Akreditasi */
 
 .header-ak{
-  height: 40vh;
-  position: sticky;
+  height: 45vh;
+  position: relative;
   background: url(/images/photos/akreditasi.jpg);
-  object-fit: cover;
-  /* background-position: center; */
-  background-position-y: 10%;
+  background-position-y: 140%;
   background-size: cover;
+  background-attachment: fixed;
+  display: flex;
 }
 
 .overlay-h-ak{
   background-color: #0b2d4d7a;
-  height: 40vh;
-
+  width: 100%;
 }
 
 .ak-content-head h1{
@@ -772,6 +773,68 @@ nav.sticky .menu-item .sub-menu{
   border-bottom: 2px solid #3e8e41;
 } */
 /* Footer */
+
+.monotab{
+  position: relative;
+  margin: auto 200px;
+  background-color: #818181;
+}
+
+.monotab1,
+.monotab2{
+  display: inline-block;
+}
+
+/* Sertifikasi */
+.header-sertifikasi{
+  height: 45vh;
+  position: relative;
+  background: url(/images/photos/sertifikasi.JPG);
+  background-position-y: 130%;
+  background-position-x: 20%;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+}
+
+.overlay-h-sertifikasi{
+  background-color: #0b2d4d7a;
+  width: 100%;
+}
+
+.sertifikasi-content-head h1{
+  padding: 200px 235px;
+  font-size: 60px;
+  color: #fff;
+  line-height: 80px;
+}
+
+.sersertifikasi-tab1{
+  position: relative;
+  background: #fff;
+}
+
+.header-tab{
+  position: relative;
+  margin: 70px 200px 0;
+  padding: 40px 40px;
+  background-color: #ffb1b1;
+  font-size: 20px;
+  border-radius: 9px 9px 0 0;
+}
+
+.line1{
+  height: 5px;
+  background: #111;
+}
+
+.tab-sertifikasi{
+  background: #dedede;
+  margin: 0 200px 70px;
+  padding: 40px 40px;
+  border-radius: 0 0 9px 9px;
+}
+
 
 footer{
   position: relative;
