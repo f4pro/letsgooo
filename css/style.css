@@ -774,6 +774,7 @@ nav.sticky .menu-item .sub-menu{
 /* .content-table tbody tr:last-of-type{
   border-bottom: 2px solid #3e8e41;
 } */
+
 /* Footer */
 
 .monotab{
@@ -787,7 +788,7 @@ nav.sticky .menu-item .sub-menu{
   display: inline-block;
 }
 
-/* Sertifikasi */
+/* Sertifikasi Page*/
 .header-sertifikasi{
   height: 45vh;
   position: relative;
@@ -837,6 +838,85 @@ nav.sticky .menu-item .sub-menu{
   border-radius: 0 0 9px 9px;
 }
 
+/* RENBANG Page */
+
+.header-renbang{
+  height: 45vh;
+  position: relative;
+  background: url(/images/photos/renbang.jpg);
+  background-position-y: 170%;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+}
+
+.overlay-h-renbang{
+  background-color: #0b2d4d7a;
+  width: 100%;
+}
+
+.renbang-content-head h1{
+  padding: 200px 235px;
+  font-size: 55px;
+  color: #fff;
+  line-height: 80px;
+}
+
+.renbang-more{
+  position: static;
+  background: #fff;
+  padding: 70px 200px;
+}
+
+.renbang-more h2 {
+  font-size: 2em;
+  font-weight: 600;
+  color: #111;
+}
+
+.renbang-more p {
+  margin: 25px 0;
+  color: #111 ;
+}
+
+.button-renbang {
+  /* display: inline-block; */
+  position: relative;
+  height: 20vh;
+  width: 100%;
+  font-size: 16px;
+  padding: 80px 200px;
+  text-align: left;
+  text-decoration: none;
+  background: linear-gradient(29deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+  color: white;
+  transition: 0.6s;
+  border: none;
+  cursor: pointer;
+}
+
+
+.button-renbang:hover {
+  background: linear-gradient(29deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 71%);
+}
+
+.button-renbang:active {
+  background-color: #3e8e41;
+}
+
+.dokumen-utama-renbang{
+  position: relative;
+  padding: 70px 200px;
+}
+
+.dokumen-utama-renbang h2{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+
+
+/* Footer */
 
 footer{
   position: relative;
