@@ -1143,6 +1143,89 @@ nav.sticky .menu-item .sub-menu{
   padding-bottom: 40px;
 }
 
+/* Pelatihan */
+
+.header-pelatihan{
+  height: 45vh;
+  position: relative;
+  background: url(/images/photos/pic6.jpg);
+  background-position-y: 60%;
+  background-position-x: 20%;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+}
+
+.overlay-h-pelatihan{
+  background-color: #0b2d4d7a;
+  width: 100%;
+}
+
+.pelatihan-content-head h1{
+  padding: 200px 235px;
+  font-size: 60px;
+  color: #fff;
+  line-height: 80px;
+}
+
+.pelatihan-more{
+  position: static;
+  background: #fff;
+  padding: 70px 200px;
+}
+
+.pelatihan-more h2 {
+  font-size: 2em;
+  font-weight: 600;
+  color: #111;
+}
+
+.pelatihan-more p {
+  margin: 25px 0;
+  color: #111 ;
+}
+
+/* Berita */
+.header-berita{
+  height: 45vh;
+  position: relative;
+  background: url(/images/photos/pic6.jpg);
+  background-position-y: 60%;
+  background-position-x: 20%;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+}
+
+.overlay-h-berita{
+  background-color: #0b2d4d7a;
+  width: 100%;
+}
+
+.berita-content-head h1{
+  padding: 200px 235px;
+  font-size: 60px;
+  color: #fff;
+  line-height: 80px;
+}
+
+.berita-more{
+  position: static;
+  background: #fff;
+  padding: 70px 200px;
+}
+
+.berita-more h2 {
+  font-size: 2em;
+  font-weight: 600;
+  color: #111;
+}
+
+.berita-more p {
+  margin: 25px 0;
+  color: #111 ;
+}
+
 
 
 /* Footer */
